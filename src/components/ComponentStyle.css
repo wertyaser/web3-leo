@@ -1,0 +1,13 @@
+:root {
+  --custom-gradient: linear-gradient(129deg, #521377 0%, #ff00a2 100%);
+}
+
+.learn {
+  background: var(--custom-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.bg-blur {
+  background: var(--custom-gradient);
+}

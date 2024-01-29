@@ -1,0 +1,17 @@
+:root {
+  --custom-gradient: linear-gradient(129deg, #521377 0%, #ff00a2 100%);
+}
+
+#jumbotron {
+  font-family: Tahoma, sans-serif;
+}
+h1 span {
+  background: var(--custom-gradient);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+div .btn-start {
+  background: var(--custom-gradient);
+}
